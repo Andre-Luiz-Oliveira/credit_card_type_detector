@@ -106,9 +106,9 @@ class CreditCardType {
   CreditCardType.hipercard()
       : type = TYPE_HIPER,
         prettyType = PRETTY_HIPER,
-        lengths = ccNumLengthDefaults[TYPE_HIPER]!,
-        patterns = cardNumPatternDefaults[TYPE_HIPER]!,
-        securityCode = ccSecurityCodeDefaults[TYPE_HIPER]!;
+        lengths = ccNumLengthDefaults[TYPE_HIPERCARD]!,
+        patterns = cardNumPatternDefaults[TYPE_HIPERCARD]!,
+        securityCode = ccSecurityCodeDefaults[TYPE_HIPERCARD]!;
 
   /// Add a new pattern to a card type
   void addPattern(Pattern pattern) {
